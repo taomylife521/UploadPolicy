@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6E5E28CC-CFDA-4BF1-B47C-B54DDB852E4B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ConsoleApplication1</RootNamespace>
+    <AssemblyName>ConsoleApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.8.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TaskPlatform.TaskInterface">
+      <HintPath>..\ND.FlightKGService\ND.FlightKGService.TaskPlatformCore\Lib\TaskPlatform.TaskInterface.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ND.FlightKGService\ND.FlightKGService.TaskPlatformCore\ND.FlightKGService.TaskPlatformCore.csproj">
+      <Project>{7d77e367-6b0b-4c8a-b29c-058f3cfe95c0}</Project>
+      <Name>ND.FlightKGService.TaskPlatformCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ND.PolicyReceiveService.Core\ND.PolicyReceiveService.Core.csproj">
+      <Project>{71190cd1-7664-468b-b80e-799cd6f6e840}</Project>
+      <Name>ND.PolicyReceiveService.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ND.PolicyReceiveService.DbEntity\ND.PolicyService.DbEntity.csproj">
+      <Project>{48cdcf96-9f9d-477d-a015-dcdb0061f4fc}</Project>
+      <Name>ND.PolicyService.DbEntity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ND.PolicyReceiveService.Helper\ND.PolicyService.Helper.csproj">
+      <Project>{73590076-b7a7-41d1-977f-e4014b1958c1}</Project>
+      <Name>ND.PolicyService.Helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ND.PolicyReceiveService.Model\ND.PolicyReceiveService.Model.csproj">
+      <Project>{6dfa5120-ae83-43df-9986-f5d6d4f0a341}</Project>
+      <Name>ND.PolicyReceiveService.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ND.PolicyReceiveServiceSite\ND.PolicyReceiveServiceSite.csproj">
+      <Project>{9081c123-22d6-4a5e-8f03-f02ca6dda82c}</Project>
+      <Name>ND.PolicyReceiveServiceSite</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ND.PolicyService.CoreLib\ND.PolicyService.CoreLib.csproj">
+      <Project>{1c339a41-9a6a-4688-ba6b-29b77ba85f0d}</Project>
+      <Name>ND.PolicyService.CoreLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ND.PolicyService.Core\ND.PolicyService.Core.csproj">
+      <Project>{6102ded4-16eb-4580-a86a-6ea422089b51}</Project>
+      <Name>ND.PolicyService.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ND.PolicyService.Enums\ND.PolicyService.Enums.csproj">
+      <Project>{baead196-c88c-49ac-9659-39fb7cfee37f}</Project>
+      <Name>ND.PolicyService.Enums</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ND.PolicyUploadService.DtoModel\ND.PolicyUploadService.DtoModel.csproj">
+      <Project>{959a82ff-715b-4945-a36b-1dbbd9c4942b}</Project>
+      <Name>ND.PolicyUploadService.DtoModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ND.PolicyUploadService.WinformClient\ND.PolicyUploadService.WinformClient.csproj">
+      <Project>{71cc6be0-f234-42d1-b034-b167aecbba09}</Project>
+      <Name>ND.PolicyUploadService.WinformClient</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

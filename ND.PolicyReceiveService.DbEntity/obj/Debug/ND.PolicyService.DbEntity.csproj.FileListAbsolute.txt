@@ -1,0 +1,4 @@
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.DbEntity\bin\Debug\ND.PolicyReceiveService.DbEntity.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.DbEntity\bin\Debug\ND.PolicyReceiveService.DbEntity.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.DbEntity\obj\Debug\ND.PolicyReceiveService.DbEntity.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.DbEntity\obj\Debug\ND.PolicyReceiveService.DbEntity.pdb

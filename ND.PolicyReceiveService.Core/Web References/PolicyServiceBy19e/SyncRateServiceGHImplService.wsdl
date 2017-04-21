@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:ns2="http://schemas.xmlsoap.org/soap/http" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://impl.service.iesales.speed.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://service.iesales.speed.com/" name="SyncRateServiceGHImplService" targetNamespace="http://impl.service.iesales.speed.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://service.iesales.speed.com/" location="http://119.254.20.38:18010/services/SyncRateServiceGH?wsdl=SyncRateService.wsdl" />
+  <wsdl:types />
+  <wsdl:binding name="SyncRateServiceGHImplServiceSoapBinding" type="ns1:SyncRateService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetSyncRate">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="GetSyncRate">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetSyncRateResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSyncRateDel">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="GetSyncRateDel">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetSyncRateDelResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SyncRateServiceGHImplService">
+    <wsdl:port name="SyncRateServiceGHImplPort" binding="tns:SyncRateServiceGHImplServiceSoapBinding">
+      <soap:address location="http://119.254.20.38:18010/services/SyncRateServiceGH" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,8 @@
+D:\test Project\PolicyReceiveService\ND.PolicyReceiveService.Helper\bin\Debug\ND.PolicyReceiveService.Helper.dll
+D:\test Project\PolicyReceiveService\ND.PolicyReceiveService.Helper\bin\Debug\ND.PolicyReceiveService.Helper.pdb
+D:\test Project\PolicyReceiveService\ND.PolicyReceiveService.Helper\obj\Debug\ND.PolicyReceiveService.Helper.dll
+D:\test Project\PolicyReceiveService\ND.PolicyReceiveService.Helper\obj\Debug\ND.PolicyReceiveService.Helper.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Helper\bin\Debug\ND.PolicyReceiveService.Helper.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Helper\bin\Debug\ND.PolicyReceiveService.Helper.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Helper\obj\Debug\ND.PolicyReceiveService.Helper.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Helper\obj\Debug\ND.PolicyReceiveService.Helper.pdb

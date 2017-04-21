@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://service.iesales.speed.com/" name="SyncRateService" targetNamespace="http://service.iesales.speed.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema xmlns:tns="http://service.iesales.speed.com/" elementFormDefault="unqualified" targetNamespace="http://service.iesales.speed.com/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="GetSyncRate" type="tns:GetSyncRate" />
+      <xs:element name="GetSyncRateDel" type="tns:GetSyncRateDel" />
+      <xs:element name="GetSyncRateDelResponse" type="tns:GetSyncRateDelResponse" />
+      <xs:element name="GetSyncRateResponse" type="tns:GetSyncRateResponse" />
+      <xs:complexType name="GetSyncRateDel">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="tns:syncRateDelRequest" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="syncRateDelRequest">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="appcode" type="xs:string" />
+          <xs:element minOccurs="0" name="deleteStrategyId" type="xs:string" />
+          <xs:element minOccurs="0" name="pageSize" type="xs:string" />
+          <xs:element minOccurs="0" name="sign" type="xs:string" />
+          <xs:element minOccurs="0" name="updateTime" type="xs:string" />
+          <xs:element minOccurs="0" name="username" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="GetSyncRateDelResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:syncRateDelResponse" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="syncRateDelResponse">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:statusResponse">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="deleteStrategyId" type="xs:string" />
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="rateList" nillable="true" type="tns:rateDel" />
+              <xs:element minOccurs="0" name="strategyId" type="xs:string" />
+              <xs:element minOccurs="0" name="updateTime" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="statusResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="code" type="xs:string" />
+          <xs:element minOccurs="0" name="message" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="rateDel">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="deletestrategyid" type="xs:string" />
+          <xs:element minOccurs="0" name="opdate" type="tns:timestamp" />
+          <xs:element minOccurs="0" name="strategyId" type="xs:decimal" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="timestamp">
+        <xs:sequence>
+          <xs:element name="nanos" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="GetSyncRate">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="tns:syncRateRequest" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="syncRateRequest">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="aircomp2c" type="xs:string" />
+          <xs:element minOccurs="0" name="appcode" type="xs:string" />
+          <xs:element minOccurs="0" name="minDiscount" type="xs:string" />
+          <xs:element minOccurs="0" name="pageSize" type="xs:string" />
+          <xs:element minOccurs="0" name="psgType" type="xs:string" />
+          <xs:element minOccurs="0" name="rateType" type="xs:string" />
+          <xs:element minOccurs="0" name="sign" type="xs:string" />
+          <xs:element minOccurs="0" name="strategyId" type="xs:string" />
+          <xs:element minOccurs="0" name="updateTime" type="xs:string" />
+          <xs:element minOccurs="0" name="username" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="GetSyncRateResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:syncRateResponse" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="syncRateResponse">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:statusResponse">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="lastStrategyId" type="xs:string" />
+              <xs:element minOccurs="0" name="pageCount" type="xs:int" />
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="rateList" nillable="true" type="tns:rate" />
+              <xs:element minOccurs="0" name="updateTime" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="rate">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="aircomp2c" type="xs:string" />
+          <xs:element minOccurs="0" name="backrate" type="xs:decimal" />
+          <xs:element minOccurs="0" name="chngretmemo" type="xs:string" />
+          <xs:element minOccurs="0" name="daysFit" type="xs:string" />
+          <xs:element minOccurs="0" name="edate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="flightclass" type="xs:string" />
+          <xs:element minOccurs="0" name="flightnoFit" type="xs:string" />
+          <xs:element minOccurs="0" name="flightnoNotFit" type="xs:string" />
+          <xs:element minOccurs="0" name="fromport3c" type="xs:string" />
+          <xs:element minOccurs="0" name="opdate" type="tns:timestamp" />
+          <xs:element minOccurs="0" name="outagentid" type="xs:string" />
+          <xs:element minOccurs="0" name="psgtype" type="xs:int" />
+          <xs:element minOccurs="0" name="ratetype" type="xs:string" />
+          <xs:element minOccurs="0" name="routetype" type="xs:decimal" />
+          <xs:element minOccurs="0" name="sdate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="state" type="xs:decimal" />
+          <xs:element minOccurs="0" name="strategyId" type="xs:decimal" />
+          <xs:element minOccurs="0" name="strategyType" type="xs:decimal" />
+          <xs:element minOccurs="0" name="thespeed" type="xs:string" />
+          <xs:element minOccurs="0" name="toport3c" type="xs:string" />
+          <xs:element minOccurs="0" name="usertype" type="xs:int" />
+          <xs:element minOccurs="0" name="voidtime" type="xs:string" />
+          <xs:element minOccurs="0" name="worktime" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="GetSyncRateDelResponse">
+    <wsdl:part name="parameters" element="ns1:GetSyncRateDelResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSyncRateResponse">
+    <wsdl:part name="parameters" element="ns1:GetSyncRateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSyncRateDel">
+    <wsdl:part name="parameters" element="ns1:GetSyncRateDel" />
+  </wsdl:message>
+  <wsdl:message name="GetSyncRate">
+    <wsdl:part name="parameters" element="ns1:GetSyncRate" />
+  </wsdl:message>
+  <wsdl:portType name="SyncRateService">
+    <wsdl:operation name="GetSyncRateDel">
+      <wsdl:input name="GetSyncRateDel" message="ns1:GetSyncRateDel" />
+      <wsdl:output name="GetSyncRateDelResponse" message="ns1:GetSyncRateDelResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSyncRate">
+      <wsdl:input name="GetSyncRate" message="ns1:GetSyncRate" />
+      <wsdl:output name="GetSyncRateResponse" message="ns1:GetSyncRateResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

@@ -1,0 +1,12 @@
+D:\ND.Application\PolicyReceiveService\ND.PolicyUploadService.DtoModel\bin\Release\ND.PolicyUploadService.DtoModel.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyUploadService.DtoModel\bin\Release\ND.PolicyUploadService.DtoModel.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyUploadService.DtoModel\bin\Release\ND.PolicyReceiveService.DbEntity.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyUploadService.DtoModel\bin\Release\ND.PolicyReceiveService.Helper.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyUploadService.DtoModel\bin\Release\ND.PolicyService.Enums.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyUploadService.DtoModel\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyUploadService.DtoModel\bin\Release\ND.PolicyReceiveService.DbEntity.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyUploadService.DtoModel\bin\Release\ND.PolicyReceiveService.Helper.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyUploadService.DtoModel\bin\Release\ND.PolicyService.Enums.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyUploadService.DtoModel\obj\Release\ND.PolicyUploadService.DtoModel.csprojResolveAssemblyReference.cache
+D:\ND.Application\PolicyReceiveService\ND.PolicyUploadService.DtoModel\obj\Release\ND.PolicyUploadService.DtoModel.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyUploadService.DtoModel\obj\Release\ND.PolicyUploadService.DtoModel.pdb

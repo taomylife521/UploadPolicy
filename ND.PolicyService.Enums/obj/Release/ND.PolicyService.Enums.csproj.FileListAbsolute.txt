@@ -1,0 +1,4 @@
+D:\ND.Application\PolicyReceiveService\ND.PolicyService.Enums\bin\Release\ND.PolicyService.Enums.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyService.Enums\bin\Release\ND.PolicyService.Enums.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyService.Enums\obj\Release\ND.PolicyService.Enums.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyService.Enums\obj\Release\ND.PolicyService.Enums.pdb

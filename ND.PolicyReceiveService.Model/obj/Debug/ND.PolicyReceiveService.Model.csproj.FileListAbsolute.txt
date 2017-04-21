@@ -1,0 +1,35 @@
+D:\test Project\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Debug\ND.PolicyReceiveService.Model.dll
+D:\test Project\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Debug\ND.PolicyReceiveService.Model.pdb
+D:\test Project\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Debug\ND.PolicyReceiveService.Helper.dll
+D:\test Project\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Debug\ND.PolicyReceiveService.Helper.pdb
+D:\test Project\PolicyReceiveService\ND.PolicyReceiveService.Model\obj\Debug\ND.PolicyReceiveService.Model.csprojResolveAssemblyReference.cache
+D:\test Project\PolicyReceiveService\ND.PolicyReceiveService.Model\obj\Debug\ND.PolicyReceiveService.Model.dll
+D:\test Project\PolicyReceiveService\ND.PolicyReceiveService.Model\obj\Debug\ND.PolicyReceiveService.Model.pdb
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Model\obj\Debug\ND.PolicyReceiveService.Model.csprojResolveAssemblyReference.cache
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Model\obj\Debug\ND.PolicyReceiveService.Model.dll
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Model\obj\Debug\ND.PolicyReceiveService.Model.pdb
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Debug\AutoMapper.Net4.dll
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Debug\ND.PolicyReceiveService.Model.dll
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Debug\ND.PolicyReceiveService.Model.pdb
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Debug\AutoMapper.dll
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Debug\ND.PolicyReceiveService.DbEntity.dll
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Debug\ND.PolicyReceiveService.Helper.dll
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Debug\ND.PolicyReceiveService.DbEntity.pdb
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Debug\ND.PolicyReceiveService.Helper.pdb
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Debug\AutoMapper.pdb
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Debug\AutoMapper.xml
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Debug\AutoMapper.Net4.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Debug\AutoMapper.Net4.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Debug\ND.PolicyReceiveService.Model.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Debug\ND.PolicyReceiveService.Model.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Debug\AutoMapper.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Debug\ND.PolicyReceiveService.DbEntity.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Debug\ND.PolicyReceiveService.Helper.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Debug\ND.PolicyReceiveService.DbEntity.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Debug\ND.PolicyReceiveService.Helper.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Debug\AutoMapper.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Debug\AutoMapper.xml
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Debug\AutoMapper.Net4.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Model\obj\Debug\ND.PolicyReceiveService.Model.csprojResolveAssemblyReference.cache
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Model\obj\Debug\ND.PolicyReceiveService.Model.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Model\obj\Debug\ND.PolicyReceiveService.Model.pdb

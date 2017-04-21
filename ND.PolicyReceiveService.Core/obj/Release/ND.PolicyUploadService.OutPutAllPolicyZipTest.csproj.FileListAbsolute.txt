@@ -1,0 +1,3 @@
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.OutPutAllPolicyZipTest\bin\Debug\ND.PolicyReceiveService.OutPutAllPolicyZipTest.exe.config
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.OutPutAllPolicyZipTest\obj\Release\ND.PolicyReceiveService.OutPutAllPolicyZipTest.exe
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.OutPutAllPolicyZipTest\obj\Release\ND.PolicyReceiveService.OutPutAllPolicyZipTest.pdb

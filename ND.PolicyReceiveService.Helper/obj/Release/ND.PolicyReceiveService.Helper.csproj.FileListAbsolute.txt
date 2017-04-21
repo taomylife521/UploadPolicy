@@ -1,0 +1,6 @@
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Helper\bin\Release\ND.PolicyReceiveService.Helper.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Helper\bin\Release\ND.PolicyReceiveService.Helper.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Helper\obj\Release\ND.PolicyReceiveService.Helper.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Helper\obj\Release\ND.PolicyReceiveService.Helper.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Helper\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Helper\obj\Release\ND.PolicyReceiveService.Helper.csprojResolveAssemblyReference.cache

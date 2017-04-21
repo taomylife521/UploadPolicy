@@ -1,0 +1,44 @@
+D:\test Project\PolicyReceiveService\ND.PolicyReceiveService.Core\obj\Debug\ND.PolicyReceiveService.Core.csprojResolveAssemblyReference.cache
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Core\obj\Debug\ND.PolicyReceiveService.Core.csprojResolveAssemblyReference.cache
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\ND.PolicyReceiveService.Core.dll.config
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\ND.PolicyReceiveService.Core.dll
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\ND.PolicyReceiveService.Core.pdb
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\ND.PolicyReceiveService.Helper.dll
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\ND.PolicyReceiveService.InterfaceLib.dll
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\ND.PolicyReceiveService.Model.dll
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\ND.PolicyReceiveService.Helper.pdb
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\ND.PolicyReceiveService.InterfaceLib.pdb
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\ND.PolicyReceiveService.Model.pdb
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Core\obj\Debug\ND.PolicyReceiveService.Core.dll
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Core\obj\Debug\ND.PolicyReceiveService.Core.pdb
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\ND.PolicyReceiveService.CoreLib.dll
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\ND.PolicyReceiveService.DbEntity.dll
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\Newtonsoft.Json.dll
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\AutoMapper.dll
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\ND.PolicyReceiveService.CoreLib.pdb
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\ND.PolicyReceiveService.DbEntity.pdb
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\Newtonsoft.Json.xml
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\AutoMapper.pdb
+D:\My Folder\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\AutoMapper.xml
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\ND.PolicyReceiveService.Core.dll.config
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\ND.PolicyReceiveService.Core.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\ND.PolicyReceiveService.Core.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\ND.PolicyReceiveService.CoreLib.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\ND.PolicyReceiveService.DbEntity.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\ND.PolicyReceiveService.Helper.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\ND.PolicyReceiveService.InterfaceLib.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\ND.PolicyReceiveService.Model.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\Newtonsoft.Json.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\AutoMapper.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\ND.PolicyReceiveService.CoreLib.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\ND.PolicyReceiveService.DbEntity.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\ND.PolicyReceiveService.Helper.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\ND.PolicyReceiveService.InterfaceLib.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\ND.PolicyReceiveService.Model.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\Newtonsoft.Json.xml
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\AutoMapper.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\AutoMapper.xml
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Core\obj\Debug\ND.PolicyReceiveService.Core.csprojResolveAssemblyReference.cache
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Core\obj\Debug\ND.PolicyReceiveService.Core.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Core\obj\Debug\ND.PolicyReceiveService.Core.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Core\bin\Debug\AutoMapper.Net4.dll

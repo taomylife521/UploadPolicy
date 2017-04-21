@@ -1,0 +1,15 @@
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Release\AutoMapper.Net4.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Release\ND.PolicyReceiveService.Model.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Release\ND.PolicyReceiveService.Model.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Release\AutoMapper.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Release\ND.PolicyReceiveService.DbEntity.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Release\ND.PolicyReceiveService.Helper.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Release\ND.PolicyReceiveService.DbEntity.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Release\ND.PolicyReceiveService.Helper.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Release\AutoMapper.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Release\AutoMapper.xml
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Model\bin\Release\AutoMapper.Net4.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Model\obj\Release\ND.PolicyReceiveService.Model.csprojResolveAssemblyReference.cache
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Model\obj\Release\ND.PolicyReceiveService.Model.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyReceiveService.Model\obj\Release\ND.PolicyReceiveService.Model.pdb

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{959A82FF-715B-4945-A36B-1DBBD9C4942B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ND.PolicyUploadService.DtoModel</RootNamespace>
+    <AssemblyName>ND.PolicyUploadService.DtoModel</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CompleteUploadPolicy\CompleteUploadPolicyDto.cs" />
+    <Compile Include="CompleteUploadPolicy\CompleteUploadPolicyResponse.cs" />
+    <Compile Include="dtoEntity\Qunar\QunarDeletePolicy.cs" />
+    <Compile Include="dtoEntity\Qunar\QunarCommonPolicyList.cs" />
+    <Compile Include="dtoEntity\Qunar\QunarDeletePolicyBase.cs" />
+    <Compile Include="dtoEntity\Qunar\QunarPolicyListBase.cs" />
+    <Compile Include="dtoEntity\Qunar\QunarPrepayPolicyList.cs" />
+    <Compile Include="dtoEntity\TaoBao\policyDO.cs" />
+    <Compile Include="dtoEntity\TaoBao\PolicyPriceDO.cs" />
+    <Compile Include="dtoEntity\TaoBao\PolicySegmentDO.cs" />
+    <Compile Include="dtoEntity\TaoBao\TaoBaoDeletePolicy.cs" />
+    <Compile Include="dtoEntity\UpLoadRecordDto.cs" />
+    <Compile Include="EmptyResponse.cs" />
+    <Compile Include="EventMsg.cs" />
+    <Compile Include="NotifyPolicy\PolicyNotifyRequest.cs" />
+    <Compile Include="QunarCode\QunarCodeListResponse.cs" />
+    <Compile Include="QunarCode\QunarCodeRequest.cs" />
+    <Compile Include="QunarUploadConfig\QunarUploadConfigResponse.cs" />
+    <Compile Include="Qunar\QunarPolicy.cs" />
+    <Compile Include="RealTimeUpload\SaveRealTimeUploadRequest.cs" />
+    <Compile Include="RealTimeUpload\SearchRealTimeUploadRequest.cs" />
+    <Compile Include="RealTimeUpload\SearchRealTimeUploadResponse.cs" />
+    <Compile Include="ResponseBase.cs" />
+    <Compile Include="NotifyPolicy\SaveNotifyResponse.cs" />
+    <Compile Include="NotifyPolicy\SearchNotifyRequest.cs" />
+    <Compile Include="NotifyPolicy\SearchNotifyResponse.cs" />
+    <Compile Include="SearchPolicy\SearchPolicyRequest.cs" />
+    <Compile Include="SearchPolicy\SearchPolicyResponse.cs" />
+    <Compile Include="SeatDiscount\SeatDiscountDto.cs" />
+    <Compile Include="SeatDiscount\SeatDiscountListResponse.cs" />
+    <Compile Include="SplitPolicy\QunarSplitPolicyRequest.cs" />
+    <Compile Include="SplitPolicy\SplitPolicyRequest.cs" />
+    <Compile Include="SplitPolicy\SplitPolicyResponse.cs" />
+    <Compile Include="NotifyPolicy\UpdateNotifyRequest.cs" />
+    <Compile Include="NotifyPolicy\UpLoadPolicyRequest.cs" />
+    <Compile Include="UploadPolicy\UploadPolicyResponse.cs" />
+    <Compile Include="Qunar\QunarUploadPolicyRequest.cs" />
+    <Compile Include="TaoBao\TaoBaoGenerateZipRequest.cs" />
+    <Compile Include="TaoBao\TaoBaoFullPolicy.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TaoBao\TaoBaoIncrementalPolicy.cs" />
+    <Compile Include="UploadPolicy\UploadResponse.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ND.PolicyReceiveService.DbEntity\ND.PolicyService.DbEntity.csproj">
+      <Project>{48cdcf96-9f9d-477d-a015-dcdb0061f4fc}</Project>
+      <Name>ND.PolicyService.DbEntity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ND.PolicyReceiveService.Helper\ND.PolicyService.Helper.csproj">
+      <Project>{73590076-b7a7-41d1-977f-e4014b1958c1}</Project>
+      <Name>ND.PolicyService.Helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ND.PolicyService.Enums\ND.PolicyService.Enums.csproj">
+      <Project>{baead196-c88c-49ac-9659-39fb7cfee37f}</Project>
+      <Name>ND.PolicyService.Enums</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

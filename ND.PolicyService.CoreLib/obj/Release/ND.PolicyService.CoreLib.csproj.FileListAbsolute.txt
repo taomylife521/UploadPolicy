@@ -1,0 +1,14 @@
+D:\ND.Application\PolicyReceiveService\ND.PolicyService.CoreLib\bin\Release\ND.PolicyService.CoreLib.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyService.CoreLib\bin\Release\ND.PolicyService.CoreLib.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyService.CoreLib\bin\Release\ND.PolicyReceiveService.DbEntity.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyService.CoreLib\bin\Release\ND.PolicyReceiveService.Helper.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyService.CoreLib\bin\Release\ND.PolicyService.Enums.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyService.CoreLib\bin\Release\Newtonsoft.Json.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyService.CoreLib\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyService.CoreLib\bin\Release\ND.PolicyReceiveService.DbEntity.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyService.CoreLib\bin\Release\ND.PolicyReceiveService.Helper.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyService.CoreLib\bin\Release\ND.PolicyService.Enums.pdb
+D:\ND.Application\PolicyReceiveService\ND.PolicyService.CoreLib\bin\Release\Newtonsoft.Json.xml
+D:\ND.Application\PolicyReceiveService\ND.PolicyService.CoreLib\obj\Release\ND.PolicyService.CoreLib.csprojResolveAssemblyReference.cache
+D:\ND.Application\PolicyReceiveService\ND.PolicyService.CoreLib\obj\Release\ND.PolicyService.CoreLib.dll
+D:\ND.Application\PolicyReceiveService\ND.PolicyService.CoreLib\obj\Release\ND.PolicyService.CoreLib.pdb

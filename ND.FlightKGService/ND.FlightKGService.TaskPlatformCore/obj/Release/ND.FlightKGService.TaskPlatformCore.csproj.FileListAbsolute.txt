@@ -1,0 +1,14 @@
+D:\ND.Application\PolicyReceiveService\ND.FlightKGService\ND.FlightKGService.TaskPlatformCore\bin\Release\ND.FlightKGService.TaskPlatformCore.dll.config
+D:\ND.Application\PolicyReceiveService\ND.FlightKGService\ND.FlightKGService.TaskPlatformCore\bin\Release\ND.FlightKGService.TaskPlatformCore.dll
+D:\ND.Application\PolicyReceiveService\ND.FlightKGService\ND.FlightKGService.TaskPlatformCore\bin\Release\ND.FlightKGService.TaskPlatformCore.XmlSerializers.dll
+D:\ND.Application\PolicyReceiveService\ND.FlightKGService\ND.FlightKGService.TaskPlatformCore\bin\Release\ND.FlightKGService.TaskPlatformCore.pdb
+D:\ND.Application\PolicyReceiveService\ND.FlightKGService\ND.FlightKGService.TaskPlatformCore\bin\Release\ND.PolicyReceiveService.Helper.dll
+D:\ND.Application\PolicyReceiveService\ND.FlightKGService\ND.FlightKGService.TaskPlatformCore\bin\Release\Newtonsoft.Json.dll
+D:\ND.Application\PolicyReceiveService\ND.FlightKGService\ND.FlightKGService.TaskPlatformCore\bin\Release\TaskPlatform.TaskInterface.dll
+D:\ND.Application\PolicyReceiveService\ND.FlightKGService\ND.FlightKGService.TaskPlatformCore\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\ND.Application\PolicyReceiveService\ND.FlightKGService\ND.FlightKGService.TaskPlatformCore\bin\Release\ND.PolicyReceiveService.Helper.pdb
+D:\ND.Application\PolicyReceiveService\ND.FlightKGService\ND.FlightKGService.TaskPlatformCore\bin\Release\Newtonsoft.Json.xml
+D:\ND.Application\PolicyReceiveService\ND.FlightKGService\ND.FlightKGService.TaskPlatformCore\obj\Release\ND.FlightKGService.TaskPlatformCore.csprojResolveAssemblyReference.cache
+D:\ND.Application\PolicyReceiveService\ND.FlightKGService\ND.FlightKGService.TaskPlatformCore\obj\Release\ND.FlightKGService.TaskPlatformCore.dll
+D:\ND.Application\PolicyReceiveService\ND.FlightKGService\ND.FlightKGService.TaskPlatformCore\obj\Release\ND.FlightKGService.TaskPlatformCore.pdb
+D:\ND.Application\PolicyReceiveService\ND.FlightKGService\ND.FlightKGService.TaskPlatformCore\obj\Release\ND.FlightKGService.TaskPlatformCore.XmlSerializers.dll
